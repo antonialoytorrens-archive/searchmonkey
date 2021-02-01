@@ -1,0 +1,1998 @@
+# Searchmonkey - desktop searching with regular expression wizard.
+# Copyright (C) 2007
+# This file is distributed under LGPL
+# Adam Cottrell <cottrela@users.sf.net>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 19:47+0200\n"
+"PO-Revision-Date: 2018-04-23 19:54+0100\n"
+"Last-Translator: Stefan Zerkalica <zerkalica@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: savestate.c:1912
+#, c-format
+msgid ""
+"\n"
+"Internal error %d! Unable to highlight line - offset beyond line-end.\n"
+msgstr ""
+"\n"
+"Внутренняя ошибка %d! Невозможно выделить файл - смещение за концом строки.\n"
+
+#: main.c:66
+msgid ""
+"\n"
+"No content searching performed for this file.\n"
+"\n"
+"Please ensure containing search was enabled, and that an expression was "
+"entered prior to starting search.\n"
+msgstr ""
+"\n"
+"Поиск по содержимому не может быть осуществлен для этого файла\n"
+"\n"
+"Пожалуйста убедитесь в том, что поиск по содержимому включен и что поисковое "
+"выражение было введено перед началом поиска.\n"
+
+#: savestate.c:1917
+#, c-format
+msgid "  Debug: %d) '%s'\n"
+msgstr " Отладка: %d) '%s'\n"
+
+#: savestate.c:1914
+#, c-format
+msgid "  Debug: fn='%s'\n"
+msgstr " Отладка: fn='%s'\n"
+
+#: savestate.c:1915
+#, c-format
+msgid "  Debug: tc=%d + os=%d || oe=%d\n"
+msgstr " Отладка: tc=%d + os=%d || oe=%d\n"
+
+#: savestate.c:45
+#, c-format
+msgid " %s settings auto-generated - Do not edit!"
+msgstr "Автоматически созданы настройки для %s - Не редактировать!"
+
+#: search.c:2788
+msgid " [cancelled]"
+msgstr " [отменено]"
+
+#: search.c:2776
+msgid " [inv]"
+msgstr " [инв]"
+
+#: savestate.c:183
+msgid " [missing]"
+msgstr " [нет]"
+
+#: search.c:2671
+#, c-format
+msgid "%1.1f KB"
+msgstr "%1.1f КБ"
+
+#: search.c:2673
+#, c-format
+msgid "%1.1f MB"
+msgstr "%1.1f МБ"
+
+#: interface.c:2550
+#, c-format
+msgid "%d"
+msgstr "%d"
+
+#: search.c:2669
+#, c-format
+msgid "%d bytes"
+msgstr "%d байт"
+
+#: search.c:2771
+#, c-format
+msgid "%d file found"
+msgstr "%d файл найден"
+
+#: search.c:2773
+#, c-format
+msgid "%d files found"
+msgstr "%d файлов найдено"
+
+#: interface.c:2543 interface.c:2557
+#, c-format
+msgid "%f"
+msgstr "%f"
+
+#: search.c:2167
+#, c-format
+msgid "%s %s\n"
+msgstr "%s %s\n"
+
+#: systemio.c:1205
+#, c-format
+msgid "%s Error! Unable to duplicate string vector\n"
+msgstr "Ошибка %s! Невозможно клонировать строковый вектор\n"
+
+#: systemio.c:1196
+#, c-format
+msgid "%s Error! Unable to split %s with %c\n"
+msgstr "Ошибка %s! Невозможно соединить %s с %c\n"
+
+#: search.c:2700
+#, c-format
+msgid "%s-type"
+msgstr "%s-тип"
+
+#: callbacks.c:1424 callbacks.c:1649
+#, c-format
+msgid "%s/research mode with RegEx"
+msgstr "%s/Режим поиска с RegEX"
+
+#: callbacks.c:1421 callbacks.c:1646
+#, c-format
+msgid "%s/research mode with jokers(DOS like)"
+msgstr "%s/Режим поиска с джокерами (как DOS)"
+
+#: savestate.c:342 search.c:1635 search.c:1649 search.c:1665 search.c:1670
+#: search.c:1687 search.c:1717 search.c:1727
+#, c-format
+msgid "%x"
+msgstr "%x"
+
+#: callbacks.c:987
+msgid "(Entry)"
+msgstr "(величина)"
+
+#: callbacks.c:992
+msgid "(Repeat)"
+msgstr "(повторение)"
+
+#: callbacks.c:982
+msgid "(Type)"
+msgstr "(условие)"
+
+#: savestate.c:331 savestate.c:475
+#, c-format
+msgid ""
+"* warning ! Corrupted config.ini configuration file ; the <<%s>> key is "
+"absent. I set up a default value *\n"
+msgstr ""
+
+#: interface.c:2653
+msgid ","
+msgstr ","
+
+#: search.c:2795
+msgid "-research mode with RegEx"
+msgstr "-Режим поиска с RegEX"
+
+#: search.c:2793
+msgid "-research mode with jokers(DOS like)"
+msgstr "-Режим поиска с джокерами (как DOS)"
+
+#: savestate.c:2018
+msgid ".\n"
+msgstr ".\n"
+
+#: callbacks.c:1408 callbacks.c:1638 savestate.c:951 search.c:2779
+#, c-format
+msgid "/Max hits limit:%d"
+msgstr "/Максимальные результаты:%d"
+
+#: callbacks.c:1411 callbacks.c:1641 savestate.c:954 search.c:2782
+msgid "/No Max hits limit"
+msgstr "/Неограниченные результаты"
+
+#: callbacks.c:1117
+msgid "0%"
+msgstr "0%"
+
+#: systemio.c:599
+msgid "100%"
+msgstr "100%"
+
+#: interface.c:1908
+msgid "<Copy and paste your sample text here>"
+msgstr "<Скопируйте и вставьте текст примера сюда>"
+
+#: interface.c:1100
+msgid "<b>  Search filters  </b>"
+msgstr "<b>  поисковые фильтры  </b>"
+
+#: interface.c:3529
+msgid ""
+"<b><big>Date filters settings</big></b>\n"
+"Here you can setup various date settings in order to refine yours searches.\n"
+"- choose <i>after</i> in order to filter files newer than this date.\n"
+"- choose <i>before</i> in order to filter files older than this date.\n"
+"- you can combine <i>after</i> and <i>before</i> settings."
+msgstr ""
+"<b><big>Настройка фильтров даты</big></b>\n"
+"Здесь вы можете выбрать разные настройки даты\n"
+"для ваших исследований.\n"
+"-Выберите <i>от</i> для фильтрации файлов, которые являются более новыми, "
+"чем эта дата.\n"
+"-Выберите <i>до</i>  для фильтрации файлов старше этой даты.\n"
+"-Вы можете <i>объединить</i> эти два параметра."
+
+#: callbacks.c:1572
+msgid "<b><u>Look in :</u></b>\n"
+msgstr "<b><u>Поиск в :</u></b>\n"
+
+#: interface.c:3694
+msgid ""
+"<b>Choose files size options:</b>\n"
+"If you don't want to limit the search, <i>uncheck</i> all options.\n"
+"In other cases, check one of the options, if you only want to search files "
+"lower or greater than a size.\n"
+"Check the <i>two</i> options if you want to find files <i>only</i> in a size "
+"interval."
+msgstr ""
+"<b>Выберите параметры размера файла</b>\n"
+"Снимите все опции, если вам не нужен лимит.\n"
+"В противном случае проверьте один из вариантов,\n"
+"если вы хотите искать файлы, меньшие или большие, чем значение.\n"
+"Проверьте <i>оба</i> варианта, для файлов в заданном диапазоне размеров."
+
+#: callbacks.c:1464 callbacks.c:1497
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"Dates mismatch ! 'Before than' date must be <i>more recent</i> than 'After "
+"than' date.\n"
+"\n"
+"Please check the dates."
+msgstr ""
+"<b>ошибка !</b>\n"
+"\n"
+"Смешанные даты! Дата «раньше» должна быть <i>более новой</i>, чем дата "
+"«после».\n"
+"Пожалуйста, проверьте даты."
+
+#: search.c:1745
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"Dates mismatch ! 'Before than' date must be <i>more recent</i> than 'After "
+"than' date.\n"
+"<b>Search can't proceed correctly !</b>\n"
+"Please check the dates."
+msgstr ""
+"<b>ошибка !</b>\n"
+"\n"
+"Смешанные даты! Дата «раньше» должна быть <i>более новой</i>, чем дата "
+"«после».\n"
+"<b>Поиск не даст правильных результатов</b>\n"
+"Пожалуйста, проверьте даты."
+
+#: search.c:1646
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"Invalid 'After'date - format as dd/mm/yyyy or dd mmm yy."
+msgstr ""
+"<b>Ошибка!</b> Неправильное поле даты 'После'  - формат должен быть в виде "
+"mm/dd/yyyy или mmm dd yy."
+
+#: search.c:1662
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"Invalid 'Before' date - format as dd/mm/yyyy or dd mmm yy."
+msgstr ""
+"<b>Ошибка!</b> Неправильное поле даты 'До'  - формат должен быть в виде mm/"
+"dd/yyyy или mmm dd yy."
+
+#: search.c:1683
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"Invalid 'Interval'date(s) - format as dd/mm/yyyy or dd mmm yy."
+msgstr ""
+"<b>Ошибка!</b> Недопустимый диапазон дат  - формат должен быть в виде mm/dd/"
+"yyyy или mmm dd yy."
+
+#: search.c:1611
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"LessThan file size must be <i>positive</i> value\n"
+"So this criteria will not be used.\n"
+"\n"
+"Please, check your entry and the units."
+msgstr ""
+"<b>ошибка !</b>\n"
+"\n"
+"Размер файла «меньше» должен быть <i>положительным</i>.\n"
+"Поэтому этот критерий не будет использоваться.\n"
+"\n"
+"Проверьте значение и единицы измерения."
+
+#: search.c:1592
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"MoreThan file size must be <i>positive</i> value\n"
+"So this criteria will not be used.\n"
+"\n"
+"Please, check your entry and the units."
+msgstr ""
+"<b>Error!</b>\n"
+"\n"
+"Размер файла «больше» должен быть <i>положительным</i>.\n"
+"Поэтому этот критерий не будет использоваться.\n"
+"\n"
+"Проверьте значение и единицы измерения."
+
+#: search.c:1596 search.c:1615
+msgid ""
+"<b>Error!</b>\n"
+"\n"
+"MoreThan file size must be <i>stricly inferior</i> to LessThan file size.So "
+"this criteria will not be used.\n"
+"\n"
+"Please, check your entry and the units."
+msgstr ""
+"<b>ошибка !</b>\n"
+"\n"
+"«Более крупный» критерий должен быть строго ниже «меньшего» критерия.\n"
+"Поэтому этот критерий не будет использоваться.\n"
+"\n"
+"Проверьте значение и единицы измерения."
+
+#: interface.c:3190
+msgid "<b>Export Source</b>"
+msgstr "<b>Экспорт источника</b>"
+
+#: interface.c:3223
+msgid "<b>Export Type</b>"
+msgstr "<b>Тип экспорта</b>"
+
+#: interface.c:900
+msgid "<b>File Contents Options</b>"
+msgstr "<b>Настройки поиска по содержимому</b>"
+
+#: interface.c:856
+msgid "<b>File Name Options</b>"
+msgstr "<b>Настройки имени файла</b>"
+
+#: interface.c:631
+msgid "<b>Files:</b>"
+msgstr "<b>файлы:</b>"
+
+#: interface.c:698
+msgid "<b>Folders:</b>"
+msgstr "<b>репертуар:</b>"
+
+#: interface.c:3008
+msgid "<b>Import Location</b>"
+msgstr "<b>Куда импортировать</b>"
+
+#: interface.c:3041
+msgid "<b>Import Type</b>"
+msgstr "<b>Тип импорта</b>"
+
+#: interface.c:3532
+msgid "<b>Modified :</b>"
+msgstr "<b>модифицированный :</b>"
+
+#: interface.c:2257
+msgid "<b>Resulting expression</b>"
+msgstr "<b>Результирующее выражение</b>"
+
+#: interface.c:997
+msgid "<b>Results Options</b>"
+msgstr "<b>Настройки результатов</b>"
+
+#: interface.c:1890
+msgid "<b>Sample Text:</b>"
+msgstr "<b>Текст примера :</b>"
+
+#: interface.c:1725
+msgid ""
+"<b>Select which data to delete:</b>\n"
+"With this dialog, you can control how your entries will be cleared."
+msgstr ""
+"<b>Выберите данные для стирания</b>\n"
+"С этим диалогом, проверите, как ваши данные будут стерта"
+
+#: interface.c:3698
+msgid "<b>Size :</b>"
+msgstr "<b>размер :</b>"
+
+#: interface.c:1928
+msgid "<b>Status:</b>"
+msgstr "<b>Статус:</b>"
+
+#: interface.c:1877
+msgid "<b>Test Expression</b>:"
+msgstr "<b>выражение для проверки</b>"
+
+#: interface.c:1862
+msgid ""
+"<b>Test Regular Expressions (RegEx):</b>\n"
+"<i>With this dialog, you can test a RegEx before using it.\n"
+"Feel free to type a RegEx and put an example of text to test it.</i>"
+msgstr ""
+"<b>Проверить регулярное выражение (RegEx)</b>\n"
+"<i>С этим диалогом, вы можете проверить RegEx перед его использованием\n"
+"Введите RegEx по вашему выбору, и пример текста для тестирования. </i>"
+
+#: interface.c:2049
+msgid "<b>Text begins:</b>"
+msgstr "<b>Начало текста:</b>"
+
+#: interface.c:2179
+msgid "<b>Text contains</b>"
+msgstr "<b>Текст содержит</b>"
+
+#: interface.c:2193
+msgid "<b>Text ends:</b>"
+msgstr "<b>Текст заканчивается</b>"
+
+#: interface.c:3443
+msgid "<b>Today :</b>"
+msgstr "<b>сегодня:</b>"
+
+#: interface.c:1775
+msgid "<b>Warning</b>: Once cleared, history cannot be recovered!"
+msgstr "<b>Внимание:</b> Очищенная история не восстанавливается"
+
+#: interface.c:3725
+msgid "<b>and/or </b>"
+msgstr "<b>и / или</b>"
+
+#: interface.c:3591
+msgid "<i>and ending</i>"
+msgstr "<i>и заканчивая</i>"
+
+#: interface.c:3583
+msgid "<i>starting</i>"
+msgstr "<i>начало</i>"
+
+#: interface.c:651
+msgid ""
+"<span face=\"Arial\" foreground=\"#670099\"><b>Reg</b></span><span face="
+"\"Arial\" foreground=\"#FF6600\"><b>Ex</b></span>..."
+msgstr ""
+"<span face=\"Arial\" foreground=\"#670099\"><b>Reg</b></span><span face="
+"\"Arial\" foreground=\"#FF6600\"><b>Ex</b></span>..."
+
+#: interface.c:681
+msgid ""
+"<span face=\"Arial\"foreground=\"#670099\"><b>Reg</b></span><span face="
+"\"Arial\"foreground=\"#FF6600\"><b>Ex</b></span>..."
+msgstr ""
+"<span face=\"Arial\"foreground=\"#670099\"><b>Reg</b></span><span face="
+"\"Arial\"foreground=\"#FF6600\"><b>Ex</b></span>..."
+
+#: search.c:2712
+msgid "?"
+msgstr "?"
+
+#: systemio.c:240
+#, c-format
+msgid ""
+"A file named \"%s\" already exists. Are you sure you want to overwrite it?"
+msgstr "Файл с именем \"%s\" уже существует. Вы хотите его перезаписать ?"
+
+#: search.c:1928
+msgid "Aborting research-Searchmonkey"
+msgstr "Отменить поиск- Searchmonkey"
+
+#: savestate.c:146
+msgid "About to overwrite save configuration. Do you want to proceed?"
+msgstr "Перезаписать настройки, продолжать ?"
+
+#: interface.c:2283
+msgid "Accept the resulting expression, and add it to the search rules."
+msgstr "Принять результирующее выражение и добавить его в правила поиска."
+
+#: interface.c:2155
+msgid "Add"
+msgstr "Добавить"
+
+#: interface.c:763
+msgid "Advanced mode :"
+msgstr "Расширенный режим:"
+
+#: interface.c:772
+msgid "Advanced options"
+msgstr "Дополнительные параметры"
+
+#: interface.c:2061 interface.c:2110 interface.c:2205
+msgid "Any char except these"
+msgstr "Любой символ исключая эти"
+
+#: interface.c:2058 interface.c:2107 interface.c:2202
+msgid "Any character"
+msgstr "Любой символ"
+
+#: interface.c:2064 interface.c:2113 interface.c:2208
+msgid "Any numeric character"
+msgstr "Любая цифра"
+
+#: interface.c:2060 interface.c:2109 interface.c:2204
+msgid "Any one of these chars"
+msgstr "Любой из этих символов"
+
+#: interface.c:2065 interface.c:2114 interface.c:2209
+msgid "Any text character"
+msgstr "Любой символ текста"
+
+#: callbacks.c:1145
+msgid ""
+"Are you sure that you wish to delete the config file, and restart "
+"searchmonkey?"
+msgstr ""
+"Вы уверены, что хотите удалить файл конфигурации и перезапустить "
+"searchmonkey?"
+
+#: systemio.c:851
+#, c-format
+msgid ""
+"Are you sure you want to delete:\n"
+"\t'%s'"
+msgstr ""
+"Вы хотите удалить:\n"
+"\t'%s'"
+
+#: interface.c:3368
+msgid "Artwork:"
+msgstr "художники:"
+
+#: interface.c:2535
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: interface.c:3289
+msgid "Auto Complete"
+msgstr "Авто завершение"
+
+#: interface.c:2602
+msgid "Auto search..."
+msgstr "Автопоиск..."
+
+#: interface.c:494
+msgid "Auto-size columns"
+msgstr "Авторазмер колонок"
+
+#: interface.c:2531
+msgid "Binary/Executable"
+msgstr "Бинарный/Исполняемый"
+
+#: interface.c:744
+msgid "Browse your file system and select the search directory..."
+msgstr "Открыть файловую систему и выбрать папку поиска..."
+
+#: interface.c:1609
+msgid "C_ancel"
+msgstr "_Отмена"
+
+#: systemio.c:892
+msgid "Cannot copy full file name as name was not selected."
+msgstr "Невозможно скопировать полное имя файла. Имя не было выбрано."
+
+#: systemio.c:828
+msgid "Cannot delete file as name was not selected."
+msgstr "Невозможно удать файл - не было выбрано имя."
+
+#: interface.c:2491
+msgid "Check this to allow"
+msgstr "Отметьте это для включения"
+
+#: interface.c:461
+msgid "Clear History..."
+msgstr "Очистить историю..."
+
+#: interface.c:1706
+msgid "Clear Search History"
+msgstr "Очистить историю поиска"
+
+#: interface.c:1766
+msgid "Clear all directories in the \"Folders:\" drop-down list"
+msgstr "Очистит все папки в списке \"Папки:\""
+
+#: interface.c:1754
+msgid "Clear all file names in the \"Files:\" drop-down list"
+msgstr "Очистит все имена файлов в списке \"Файлы:\""
+
+#: interface.c:1760
+msgid "Clear all patterns in the \"Containing:\" drop-down list"
+msgstr "Очистит все шаблоны в списке \"Содержащие:\""
+
+#: interface.c:1757
+msgid "Clear containing text"
+msgstr "Очистить содержимое"
+
+#: interface.c:1751
+msgid "Clear file names"
+msgstr "Очистить имане файлов"
+
+#: interface.c:1763
+msgid "Clear look in history"
+msgstr "Очистить историю"
+
+#: interface.c:774
+msgid "Click here to see all search options ..."
+msgstr "Нажмите здесь, чтобы просмотреть все параметры поиска."
+
+#: interface.c:1092
+msgid "Click here to set-up size and date search options ..."
+msgstr ""
+"Нажмите здесь, чтобы задать все параметры поиска\n"
+"для даты и размера ..."
+
+#: interface.c:2446
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: savestate.c:80
+msgid ""
+"Configuration files are for a different version of Searchmonkey. This may "
+"cause errors. Delete old configuration files?"
+msgstr ""
+"Файлы настроек для другой версии Searchmonkey. Это может вызвать ошибки. "
+"Удалить старые файлы настроек ?"
+
+#: interface.c:3183
+msgid "Containing Text Export Criteria"
+msgstr "Условия экспорта содержимого"
+
+#: interface.c:3001
+msgid "Containing Text import"
+msgstr " Импорт содержимого"
+
+#: interface.c:664
+msgid "Containing:"
+msgstr "Содержащие:"
+
+#: callbacks.c:1076
+msgid "Context Expression Wizard"
+msgstr "Мастер выражений для содержимого"
+
+#: interface.c:2251
+msgid "Convert Internals"
+msgstr "Преобразовывать символы"
+
+#: interface.c:3379
+msgid "Copyright (c) 2006-2018 Adam Cottrell"
+msgstr "Копирайт (c) 2006-2018 Adam Cottrell"
+
+#: support.c:90 support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Невозможно найти файл с графикой : %s"
+
+#: interface.c:2159
+msgid "Creates a new row in the list with the following rule."
+msgstr "Создает новую строку в списке с последующим правилом"
+
+#: interface.c:2671
+msgid "Csv Export"
+msgstr "Экспорт в Csv"
+
+#: interface.c:2744
+msgid "Current Config file location:"
+msgstr "Размещение файла настроек:"
+
+#: interface.c:3613
+msgid "Day(s)"
+msgstr "дней"
+
+#: interface.c:2606
+msgid "Default Applications"
+msgstr "программы по умолчанию"
+
+#: interface.c:2521
+msgid "Default folder explorer:"
+msgstr "Проводник:"
+
+#: interface.c:2516
+msgid "Default text editor:"
+msgstr "Текстовый редактор:"
+
+#: interface.c:2526
+msgid "Default web browser:"
+msgstr "Веб браузер:"
+
+#: interface.c:2173
+msgid "Delete"
+msgstr "Удалить"
+
+#: interface.c:2177
+msgid "Deletes an existing row in the rule table."
+msgstr "Удаляет существующую строку из  таблицы правил"
+
+#: interface.c:242
+msgid "Desktop search to replace find and grep."
+msgstr "Поиск для рабочего стола на замену find и grep."
+
+#: regexwizard.c:100
+msgid "Did not match any."
+msgstr "Нет соответвий."
+
+#: interface.c:2276
+msgid "Discard any changes."
+msgstr "Отменить любые изменения."
+
+#: interface.c:1037 interface.c:1075
+msgid "Displays the matching text lines when the result is selected."
+msgstr "Показать соответвующие строки текста, когда выбран результатю"
+
+#: interface.c:2057 interface.c:2106 interface.c:2201
+msgid "Don't know"
+msgstr "Не знаю"
+
+#: interface.c:2147
+msgid ""
+"Each row creates a new part to the rule, with the order reflecting the order "
+"in which the rule is to be matched."
+msgstr ""
+"Каждая строка создает новую часть правила с порядком, как в правиле, "
+"которому соответвует."
+
+#: interface.c:1572
+msgid "Edit (File)"
+msgstr "Редактировать (Файл)"
+
+#: interface.c:331
+msgid "Edit File"
+msgstr "Редактировать файл"
+
+#: interface.c:2631
+msgid "End of row separator:"
+msgstr "Конец разделителя строк:"
+
+#: savestate.c:161
+#, c-format
+msgid "Error saving %s: %s\n"
+msgstr "Ошибка сохранения %s: %s\n"
+
+#: callbacks.c:1611
+msgid "Error! Invalid 'containing text' regular expression"
+msgstr "Ошибка! Неправильное регулярное выражение для 'содержимого'"
+
+#: callbacks.c:1587
+msgid "Error! Invalid 'file name' regular expression"
+msgstr "Ошибка! Неправильное регулярное выражение для 'имени файла'"
+
+#: search.c:1895
+msgid "Error! Invalid Containing Text regular expression"
+msgstr "Ошибка! Регулярное выражение для содержимого ошибочно."
+
+#: search.c:1888
+msgid "Error! Invalid File Name regular expression"
+msgstr "Ошибка! Регулярное выражение имени файла задано не верно."
+
+#: misc.c:530 search.c:1868
+msgid "Error! Look In directory cannot be blank."
+msgstr "Ошибка! Каталог поиска  не может быть пустым."
+
+#: misc.c:541 search.c:1879
+msgid "Error! Look In directory is invalid."
+msgstr "Ошибка! Каталог поиска задан не верно."
+
+#: systemio.c:352 systemio.c:461
+msgid "Error! No valid file selected."
+msgstr "Ошибка! Не было выбрано правильных файлов."
+
+#: systemio.c:429
+msgid "Error! Unable to find first combo entry. Is drop down list blank?"
+msgstr "Ошибка! Невозможно найти первую область. Выпадающий список пуст?"
+
+#: callbacks.c:1151
+#, c-format
+msgid "Error! Unable to remove config file %s.\n"
+msgstr "Ошибка! Невозможно удалить файл конфигурации %s.\n"
+
+#: systemio.c:405
+msgid ""
+"Error! You must select at least one entry in order to save drop down list."
+msgstr ""
+"Ошибка! Вы должны выбрать по крайней мере одну область для сохранения "
+"выпадающего списка."
+
+#: interface.c:3124
+msgid "Export Criteria"
+msgstr "Условия экспорта"
+
+#: interface.c:2031
+msgid "Expression Wizard"
+msgstr "Мастер выражений"
+
+#: interface.c:2473
+msgid ""
+"Extended regular expressions are recommended as they provide more "
+"functionality."
+msgstr ""
+"Расширенное регулярное выражение рекомендуется, т.к. оно дает больше "
+"возможностей."
+
+#: interface.c:508
+msgid "Extras"
+msgstr "Дополнения"
+
+#: callbacks.c:1074
+msgid "File Expression Wizard"
+msgstr "Мастер выражений для файла"
+
+#: interface.c:3176
+msgid "File Name Export criteria"
+msgstr "Условия экспорта имени файла"
+
+#: interface.c:2994
+msgid "File Name import"
+msgstr "Импорт имени файла"
+
+#: interface.c:2972 interface.c:3153
+msgid "File Selection"
+msgstr "Выбраный файл"
+
+#: interface.c:2549
+#, c-format
+msgid "File explorer attributes: %f=filename, %d=directory"
+msgstr "Атрибуты файлового менеджера: %f=имя файла, %d=папка"
+
+#: systemio.c:152
+msgid "File name"
+msgstr "Имя файла"
+
+#: systemio.c:154
+msgid "File size"
+msgstr "Размер файла"
+
+#: systemio.c:155
+msgid "File type"
+msgstr "Тип файла"
+
+#: systemio.c:331
+msgid "File was empty/invalid."
+msgstr "Файл был пустым/поврежденным."
+
+#: interface.c:2586
+msgid "Find default executables:"
+msgstr "Найти исполняемые файлы:"
+
+#: interface.c:832
+msgid "Follow Symbol _Links"
+msgstr "Переходить по символьным ссы_лкам"
+
+#: interface.c:835
+msgid "Follow Symbolic Links (Only on systems that support them)"
+msgstr ""
+"Переходить по символьным ссылкам (Только на системах, поддерживающих их)"
+
+#: interface.c:2484
+msgid "Force a prompt before any files are deleted"
+msgstr "Спрашивать перед удалением любых файлов"
+
+#: interface.c:2479
+msgid "Force a prompt before settings are saved."
+msgstr "Спрашивать перед сохранением настроек."
+
+#: interface.c:2465
+msgid "Force single window mode"
+msgstr "Форсировать однооконный режим"
+
+#: regexwizard.c:104
+#, c-format
+msgid "Found %d matches."
+msgstr "Найдено %d соответвий."
+
+#: regexwizard.c:102
+msgid "Found 1 match."
+msgstr "Найдено 1 соответвие."
+
+#: interface.c:3722 interface.c:3748 misc.c:118
+msgid "Gb"
+msgstr "гб"
+
+#: interface.c:2494
+msgid "Global Settings"
+msgstr "Общие настройки"
+
+#: interface.c:3027
+msgid "Grep style file (1-entry, OR each line)"
+msgstr "Grep стиль (1-область. OR каждая строка)"
+
+#: interface.c:2270
+msgid "Help with the Regular Expression Builder"
+msgstr "Помощь по создателю регулярных выражений"
+
+#: interface.c:987
+msgid "Highlights per line :"
+msgstr "выделение строк :"
+
+#: interface.c:372
+msgid "Horizontal results"
+msgstr "Результаты по горизонтали"
+
+#: interface.c:954
+msgid ""
+"If active, display extra lines around the matching line to help show context "
+"of match."
+msgstr ""
+"Если активно, показывать пустые строки вокруг найденой, что бы лучше увидеть "
+"соответствие поисковому запросу"
+
+#: interface.c:829
+msgid "Ignore hidden files (Unix filesystems only)"
+msgstr "Игнорировать скрытые файлы (только файловая система Unix)"
+
+#: systemio.c:498
+#, c-format
+msgid ""
+"Illegal escape sequence: '\\%c'.\n"
+" Valid escape characters are: b n r t \" \\"
+msgstr ""
+"не правильная escape-последовательность : '\\%c'.\n"
+" Правильно: b n r t \" \\"
+
+#: interface.c:2944
+msgid "Import Criteria"
+msgstr "Условия импорта"
+
+#: interface.c:3004 interface.c:3037 interface.c:3219
+msgid "Import a file identical to that generated by the export command."
+msgstr "Импортировать файл, идентичный созданному командой экспорта"
+
+#: systemio.c:516
+#, c-format
+msgid ""
+"Input string expands into non ASCII, or multi-byte key sequence: '%s'.\n"
+" Please try to use ASCII safe keys"
+msgstr ""
+"Строка ввода расширена в не ASCII или много-байтовое представление: '%s'.\n"
+" Пожалуйста используйте безопасные ASCII символы"
+
+#: callbacks.c:723
+msgid "Internal Error! Unable to find calling wizard type!"
+msgstr "Внутренняя ошибка! невозможно найти тип вызываемого мастера"
+
+#: interface.c:816
+msgid "Invert Search Expression"
+msgstr "Инвертировать поисковое выражение"
+
+#: interface.c:819
+msgid "Inverts the file name search results i.e. find all becomes find none."
+msgstr ""
+"Инвертировать результаты поиска имени файла, т.о. логика выражения найти все "
+"станет найти ничего"
+
+#: interface.c:3212
+msgid "Just save the currently displayed entry to a file."
+msgstr "Сохранять только показываемые в данный момент области в файл"
+
+#: interface.c:3720 interface.c:3746 misc.c:114
+msgid "Kb"
+msgstr "кб"
+
+#: interface.c:3729
+msgid "Less than:"
+msgstr "Меньше чем:"
+
+#: interface.c:975
+msgid "Limit Content Highlighting"
+msgstr "Ограничение выделения контента"
+
+#: interface.c:927
+msgid "Limit Match Files"
+msgstr "Ограничить соотвествие файлов"
+
+#: interface.c:921
+msgid "Limit files found by selecting maximum tree-depth to search."
+msgstr "Ограничить кол-во найденых файлов максимальной глубиной дерева поиска."
+
+#: savestate.c:1877 savestate.c:1931
+#, c-format
+msgid "Line Number: %d\n"
+msgstr "Строка номер: %d\n"
+
+#: interface.c:961
+msgid "Lines Displayed:"
+msgstr "Строка показано:"
+
+#: interface.c:1016 interface.c:1054
+msgid "List of file(s) corresponding to research criteria."
+msgstr "Список файл(ов), соответствующих критериям поиска"
+
+#: savestate.c:776 systemio.c:153
+msgid "Location"
+msgstr "Путь"
+
+#: interface.c:2752
+msgid "Location of your current searchmonkey configuration settings file."
+msgstr "Размещение файла текущих настроек searchmonkey."
+
+#: interface.c:420
+msgid "Mat_ches"
+msgstr "Соо_тветствия"
+
+#: interface.c:821 interface.c:875
+msgid "Match Case"
+msgstr "Регистрозавимость"
+
+#: interface.c:2487
+msgid "Match strings within binary files too"
+msgstr "Строки результатов у бинарных файлов"
+
+#: savestate.c:812
+msgid "Matches"
+msgstr "Соответствий"
+
+#: interface.c:937
+msgid "Maximum Hits:"
+msgstr "Максимальное кол-во найденых:"
+
+#: interface.c:3710
+msgid "Maximum filesize in kBytes/mBytes/gBytes."
+msgstr "Максимальный размер файла в кБайтах/мб/гб"
+
+#: interface.c:3721 interface.c:3747 misc.c:116
+msgid "Mb"
+msgstr "Mb"
+
+#: interface.c:3737
+msgid "Minimum filesize in kBytes/mBytes/gBytes."
+msgstr "Миинимальный размер файла в кБайтах/мб/гб"
+
+#: savestate.c:803
+msgid "Modified"
+msgstr "Изменено"
+
+#: systemio.c:156
+msgid "Modified date"
+msgstr "Дата модификации"
+
+#: interface.c:2171
+msgid "Modifies an existing row in the rule table."
+msgstr "Изменяет существующую строку в таблице правил."
+
+#: interface.c:2167
+msgid "Modify"
+msgstr "Изменить"
+
+#: interface.c:3615
+msgid "Month(s)"
+msgstr "месяц"
+
+#: interface.c:3702
+msgid "More than:"
+msgstr "Больше чем:"
+
+#: systemio.c:528
+#, c-format
+msgid ""
+"Multi-byte string entered: '%s'.\n"
+"Truncating extra character (%c)"
+msgstr ""
+"Введена мультибайтовая строка: '%s'.\n"
+" Обрезаются экстра-символы (%c)"
+
+#: main.c:68 misc.c:120
+msgid "N/A"
+msgstr "Н/Д"
+
+#: savestate.c:767
+msgid "Name"
+msgstr "Имя"
+
+#: systemio.c:221
+msgid "No results to save!"
+msgstr "Нет результатов для сохранения!"
+
+#: interface.c:2081 interface.c:2130 interface.c:2225
+msgid "Once"
+msgstr "Однажды"
+
+#: interface.c:2082 interface.c:2131 interface.c:2226
+msgid "One or more times"
+msgstr "Один или более раз"
+
+#: interface.c:339
+msgid "Open Folder"
+msgstr "Открыть папку"
+
+#: interface.c:3046 interface.c:3228
+msgid "Options"
+msgstr "Настройки"
+
+#: savestate.c:1971
+msgid "Options: "
+msgstr "Настройки:"
+
+#: interface.c:305
+msgid "P_rint Setup..."
+msgstr "Настройка _Печати"
+
+#: savestate.c:1875
+#, c-format
+msgid "Paragraph Number: %d\n"
+msgstr "номер абзаца: %d\n"
+
+#: interface.c:2569
+msgid "Paste and edit full file name of your preferred file explorer."
+msgstr "Вставьте и редактируйте полное имя любимого файлового менеджера."
+
+#: interface.c:2563
+msgid "Paste and edit full file name of your preferred text editor."
+msgstr "Вставьте и редактируйте полное имя любимого текстового редактора."
+
+#: interface.c:2575
+msgid "Paste and edit full file name of your preferred web browser."
+msgstr "Вставьте и редактируйте полное имя любимого веб браузера."
+
+#: interface.c:873
+msgid ""
+"Perform content searching immediately so that results are returned quicker."
+msgstr ""
+"Немедленно начинать поиск в содержимом, результаты появятся незамедлительно"
+
+#: search.c:2065 search.c:2158
+#, c-format
+msgid "Phase 1 searching %s"
+msgstr "Фаза 1 поиск %s"
+
+#: search.c:2388
+#, c-format
+msgid "Phase 2 searching %s"
+msgstr "Фаза 2 поиск %s"
+
+#: search.c:2275
+msgid "Phase 2 starting..."
+msgstr "Фаза 2 запуск..."
+
+#: interface.c:3316
+msgid ""
+"Please be patient!\n"
+"\n"
+"Searching for executables to perform the following functions:\n"
+"  * text editing/viewing\n"
+"  * folder browsing\n"
+"  * web browsing\n"
+"\n"
+"The search algorithm uses a set of standard executables for all systems, and "
+"then attempts to find them on your local disk.\n"
+"\n"
+"Once complete, press OK to store the executables."
+msgstr ""
+"Внимание!\n"
+"\n"
+"Идет поиск программ для выполнения следующих действий:\n"
+"  * просмотр/редактирование текста\n"
+"  * открытие папок\n"
+"  * открытие в веб браузере\n"
+"\n"
+"Алгоритм поиска использует стандартный набор програм для всех систем и "
+"попытается найти их на вашем диске\n"
+"\n"
+"После завершения нажмите OK для сохраниения результатов."
+
+#: savestate.c:1913
+msgid "Please email all debug text to cottrela@users.sf.net.\n"
+msgstr "Пожалуйста, пошлите отладочный текст на емейл cottrela@users.sf.net\n"
+
+#: interface.c:3324
+msgid "Please wait..."
+msgstr "Ждите..."
+
+#: interface.c:678
+msgid ""
+"Please, type here a word or a segment of a word researched in the file(s).\n"
+"Don't type spaces."
+msgstr ""
+"пожалуйста, напишите здесь слово или сегмент слова, который вы ищете в "
+"файле. \n"
+"не писать пробелы. "
+
+#: interface.c:647
+msgid ""
+"Please, type here the name or a segment of the name of the file(s).\n"
+"Don't type spaces."
+msgstr ""
+"Введите здесь имя или сегмент имени искомого файла (ов).\n"
+"Не записывайте пробелы."
+
+#: interface.c:2084 interface.c:2133 interface.c:2228
+msgid "Possibly once"
+msgstr "Возможно один"
+
+#: interface.c:3366
+msgid "Programming:"
+msgstr "программирование"
+
+#: interface.c:3366
+msgid "Project Manager:"
+msgstr "руководитель :"
+
+#: interface.c:2481
+msgid "Prompt before deleting files"
+msgstr "Спрашивать перед удалением файлов"
+
+#: interface.c:2476
+msgid "Prompt before saving state"
+msgstr "Спрашивать перед сохранением"
+
+#: interface.c:3616
+msgid "Quarter(s)"
+msgstr "триместр"
+
+#: savestate.c:949
+msgid "Ready-research mode with RegEx"
+msgstr "готовый-Режим поиска с RegEX"
+
+#: savestate.c:947
+msgid "Ready-research mode with jokers(DOS like)"
+msgstr "готовый-Режим поиска с джокерами (как DOS)"
+
+#: interface.c:735
+msgid "Recurse Folders"
+msgstr "Рекурсивный обход каталогов"
+
+#: interface.c:3381
+msgid ""
+"Regular expression power search utility written in GTK+ and licensed under "
+"GPL v.3"
+msgstr ""
+"Утилита поиска по регулярным выражением, написана на GTK+ и лицензирована "
+"под GPL v.3."
+
+#: interface.c:564
+msgid "Release _Notes"
+msgstr "За_метки о релизе"
+
+#: interface.c:2693
+msgid "Remove all saved settings (restart required to complete):"
+msgstr "Удалить все сохраненные настройки (необходим перезапуск):"
+
+#: interface.c:2709
+msgid "Reset all"
+msgstr "Сбросить все"
+
+#: interface.c:1769
+msgid "Reset size/modified options"
+msgstr "Сбросить настройки размер/изменено"
+
+#: interface.c:1772
+msgid "Reset the size and modified search criteria."
+msgstr "Сбросить условия поиска размер и дату изменения"
+
+#: interface.c:918
+msgid "Restrict depth:"
+msgstr "Ограничить глубину:"
+
+#: systemio.c:660
+#, c-format
+msgid ""
+"Run configuration to set default directory/folder browser:\n"
+"\"%s\""
+msgstr ""
+"Настройте проводник по-умолчанию:\n"
+" \"%s\""
+
+#: systemio.c:647
+#, c-format
+msgid ""
+"Run configuration to set default text editor:\n"
+"\"%s\""
+msgstr ""
+"Настройте текстовый редактор по-умолчанию:\n"
+" \"%s\""
+
+#: systemio.c:634
+#, c-format
+msgid ""
+"Run configuration to set default web-browser:\n"
+"\"%s\""
+msgstr ""
+"Настройте веб-браузер по-умолчанию:\n"
+" \"%s\""
+
+#: interface.c:388
+msgid "S_ort by"
+msgstr "С_ортировать по"
+
+#: interface.c:286
+msgid "Save R_esults to CSV..."
+msgstr "Сохранить р_езультаты в CSV..."
+
+#: interface.c:3209
+msgid "Save active/displayed entry only"
+msgstr "Сохранять только активные/показываемые области"
+
+#: interface.c:3216
+msgid "Save all entries (1-entry per line)"
+msgstr "Сохранить все области (1-область на файл)"
+
+#: interface.c:2734
+msgid "Save now"
+msgstr "Сохранить"
+
+#: interface.c:2875
+msgid "Save results to CSV file..."
+msgstr "Сохранить результаты в файл CSV"
+
+#: interface.c:2721
+msgid "Save settings immediately (normally occurs on exit):"
+msgstr "Сохранить настройки немедленно (обычно это происходит на выходе):"
+
+#: interface.c:3186
+msgid "Save the Containing Text drop down entries into a file."
+msgstr "Сохранить области найденого содержимого в файл"
+
+#: interface.c:3179
+msgid "Save the File Name drop down entries into a file."
+msgstr "Сохранить области имени файла  в файл"
+
+#: interface.c:3321
+msgid "Search progress"
+msgstr "Прогресс поиска"
+
+#: interface.c:1135
+msgid "Search progress bar."
+msgstr "Прогресс поиска."
+
+#: interface.c:2779 interface.c:2785 interface.c:3334 interface.c:3341
+msgid "Searching for system files, please wait..."
+msgstr "Поиск системных файлов..."
+
+#: search.c:1905
+#, c-format
+msgid "Searchmonkey : search in %s/"
+msgstr "searchmonkey : искать в %s"
+
+#: interface.c:3368
+msgid "Searchmonkey logos + main icon :"
+msgstr "Searchmonkey логотипы и главный значок:"
+
+#: interface.c:3034
+msgid "Searchmonkey style (1-entry per line)"
+msgstr "Стиль Searchmonkey (1-область на файл)"
+
+#: interface.c:3420
+msgid "Select Date..."
+msgstr "Выберите дату..."
+
+#: interface.c:1673
+msgid "Select Font"
+msgstr "Выбрать шрифт"
+
+#: interface.c:1519
+msgid "Select a folder"
+msgstr "Укажите папку"
+
+#: interface.c:1654
+msgid "Select highlighting Colour"
+msgstr "Выберите цвет подсветки"
+
+#: interface.c:469
+msgid "Settings"
+msgstr "Настройки"
+
+#: interface.c:951
+msgid "Show Line Contents"
+msgstr "Показать содержимое строк"
+
+#: interface.c:362
+msgid "Show _Statusbar"
+msgstr "Показать строку _статуса"
+
+#: savestate.c:785
+msgid "Size"
+msgstr "Размер"
+
+#: interface.c:2254
+msgid ""
+"Some characters (such as . | ^ $) are reserved in certain circumstances.\n"
+"\n"
+"If you know what you are doing with these characters, unselect this checkbox."
+msgstr ""
+"Некоторые символы ( напр. . | ^ $) зарезервированны.\n"
+"\n"
+"Если вы не знаете, что они делают, снимите галку с этого чекбокса."
+
+#: interface.c:2063 interface.c:2112 interface.c:2207
+msgid "Space(s)"
+msgstr "Пробел(ы)"
+
+#: interface.c:979
+msgid ""
+"Specify the maximum number of content matches within each file to show. Does "
+"not limit the number of files to search."
+msgstr ""
+"Указать максимальное кол-во строк найденных результатов. Не ограничивает кол-"
+"во файлов для поиска."
+
+#: interface.c:930
+msgid ""
+"Specify the maximum number of matching files found. Does not limit the "
+"number of content matches within each file."
+msgstr ""
+"Максимальное число найденых файлов, не ограничивает число соответствий в "
+"содержимом каждого файла."
+
+#: interface.c:433
+msgid "Start"
+msgstr "Старт"
+
+#: interface.c:615
+msgid "Start the search!"
+msgstr "Запустить поиск!"
+
+#: interface.c:444
+msgid "Stop"
+msgstr "Стоп"
+
+#: interface.c:624
+msgid "Stop the search!"
+msgstr "Остановить поиск!"
+
+#: interface.c:2756
+msgid "System"
+msgstr "Система"
+
+#: interface.c:1843
+msgid "Test Regular Expression"
+msgstr "Проверить регулярное выражение"
+
+#: interface.c:542
+msgid "Test Regular Expression..."
+msgstr "Тестировать регулярное выражение"
+
+#: interface.c:2658
+msgid "Text delimiter:"
+msgstr "Разделитель текста:"
+
+#: interface.c:2542 interface.c:2556
+#, c-format
+msgid "Text editor attributes: %f=filename, %d=directory"
+msgstr "Атрибуты текстового редактора: %f=имя файла, %d=папка"
+
+#: interface.c:2059 interface.c:2108 interface.c:2203
+msgid "The character"
+msgstr "Символ"
+
+#: interface.c:2062 interface.c:2111 interface.c:2206
+msgid "The phrase"
+msgstr "Фраза"
+
+#: interface.c:2247
+msgid "This is the expression that will be copied back to the main screen."
+msgstr "Это выражение, которое будет скопировано обратно в главное окно."
+
+#: interface.c:1910
+msgid ""
+"To see the results of your regular expression click apply. Once done, simply "
+"close the window. Searches are case sensitive.\n"
+"\n"
+"<b>Note:</b> this tool will highlight <i>each</i> match(es) found."
+msgstr ""
+"Что бы увидеть результат регулярного выражения, нажмите применить. Поиск "
+"чувствителен к регистру букв.\n"
+"это сделано, закройте окно. поиск чувствителен к регистру\n"
+"<b>Замечание:</b> здесь будет выделено <i>все</i> вхождения"
+
+#: interface.c:3388
+msgid "Translators credits"
+msgstr "Переведено : ?"
+
+#: savestate.c:794
+msgid "Type"
+msgstr "Тип"
+
+#: search.c:2711
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: interface.c:2161
+msgid "Update"
+msgstr "Обновить"
+
+#: interface.c:2165
+msgid "Updates a rule that was selected for the modify function."
+msgstr "Обновляет правило, которое было выбрано для изменения функции."
+
+#: interface.c:2665
+msgid "Use ASCII characters e.g. \" # $ '"
+msgstr "Использовать ASCII символы, например \" # $ '"
+
+#: interface.c:2651
+msgid "Use ASCII or C style construct e.g. , \\t ;"
+msgstr "Использовать конструкции ASCII или в C стиле, например , \\t ;"
+
+#: interface.c:2638
+msgid "Use ASCII or C style construct e.g. \\n"
+msgstr "Использовать конструкции ASCII или в C стиле, например \\n"
+
+#: interface.c:870
+msgid "Use Single Phase Search"
+msgstr "Одиночная фаза поиска"
+
+#: interface.c:841
+msgid "Use Wil_dcard Syntax"
+msgstr "_Масочный синтаксис"
+
+#: interface.c:848 interface.c:892
+msgid "Use _Regular Expression Syntax"
+msgstr "Синтаксис _регулярных выражений"
+
+#: interface.c:489
+msgid "Use _Word Wrap"
+msgstr "Переносить сл_ова"
+
+#: interface.c:2470
+msgid "Use extended regular expressions"
+msgstr "Использовать расширенное регулярное выражение"
+
+#: interface.c:851 interface.c:895
+msgid "Use regular expression syntax in file search criteria."
+msgstr "Использование регулярных выражений для ввода условий поиска файла"
+
+#: interface.c:884
+msgid "Use simple search syntax"
+msgstr "Простой синтаксис поиска"
+
+#: interface.c:878
+msgid "Use strict contents case matching."
+msgstr "Более точный поиск по содержимому с учетом регистра."
+
+#: interface.c:824
+msgid "Use strict file case matching."
+msgstr "Использовать точный поиск в файлах"
+
+#: interface.c:2997 interface.c:3030
+msgid "Use the file in an identical to way to that of the grep -f command."
+msgstr "Использование файла идентично выводу команды grep -f"
+
+#: interface.c:691
+msgid "Use the wizard to create a containing text regular expression..."
+msgstr ""
+"Используйте этот мастер, что бы создать регулярное выражение для содержимого"
+
+#: interface.c:661
+msgid "Use the wizard to create a file name regular expression..."
+msgstr "Используйте мастер для создания регулярного выражения имени файла..."
+
+#: interface.c:3611
+msgid "Use this option to choose the date units."
+msgstr "Используйте эту опцию для выбора части размера файла"
+
+#: interface.c:3718 interface.c:3744
+msgid "Use this option to choose the file size units."
+msgstr "Используйте эту опцию для выбора части размера файла"
+
+#: interface.c:667
+msgid ""
+"Use this option to restrict your search results to files containing the "
+"provided text (or pattern)."
+msgstr ""
+"Используйте эту настройку для ограничения результатов поиска файлами, "
+"содержащими искомый текст (или шаблон)."
+
+#: interface.c:3705
+msgid ""
+"Use this option to restrict your search results to files that are bigger "
+"than the provided number of kilo Bytes."
+msgstr ""
+"Используйте эту настройку для ограничения поисковых результатов файлами, чей "
+"размер больше указанного числа килобайт."
+
+#: interface.c:3732
+msgid ""
+"Use this option to restrict your search results to files that are smaller "
+"than the provided number of kilo Bytes."
+msgstr ""
+"Используйте эту настройку для ограничения поисковых результатов файлами, чей "
+"размер меньше указанного числа килобайт."
+
+#: interface.c:738
+msgid "Use this option to search all subfolders (recursively)."
+msgstr "Используйте эту настройку для поиска во всех подпапках (рекурсивно). "
+
+#: interface.c:844 interface.c:888
+msgid "Use wildcard or glob syntax for file search criteria. E.g. *.txt"
+msgstr "Использование маскок для ввода условий поиска файла, например *.txt"
+
+#: interface.c:2644
+msgid "Value/field separator:"
+msgstr "Разделитель значение/поле"
+
+#: interface.c:378
+msgid "Vertical results"
+msgstr "Результаты по вертикали"
+
+#: interface.c:3614
+msgid "Week(s)"
+msgstr "недель"
+
+#: interface.c:3617
+msgid "Year(s)"
+msgstr "лет"
+
+#: interface.c:2083 interface.c:2132 interface.c:2227
+msgid "Zero or more times"
+msgstr "Ноль или более раз"
+
+#: interface.c:2667
+msgid "\\\""
+msgstr "\\\""
+
+#: interface.c:2640
+msgid "\\n"
+msgstr "\\n"
+
+#: interface.c:3542
+msgid "_Any date"
+msgstr "все _даты"
+
+#: interface.c:347 interface.c:1580
+msgid "_Copy (Filename)"
+msgstr "_Копировать (Имя файла)"
+
+#: interface.c:323
+msgid "_Delete (File)"
+msgstr "_Удалить (Файл)"
+
+#: interface.c:1588
+msgid "_Delete File"
+msgstr "_Удалить файл"
+
+#: interface.c:316
+msgid "_Edit"
+msgstr "_Редактировать"
+
+#: interface.c:1596
+msgid "_Explore Folder"
+msgstr "_Открыть папку"
+
+#: interface.c:526
+msgid "_Export Regular Expression..."
+msgstr "_Экспортировать регулярное выражение"
+
+#: interface.c:263
+msgid "_File"
+msgstr "_Файл"
+
+#: interface.c:395
+msgid "_File Name"
+msgstr "Имя _файла"
+
+#: interface.c:568
+msgid "_Forums"
+msgstr "_Форумы"
+
+#: interface.c:3553
+msgid "_From :"
+msgstr "_от :"
+
+#: interface.c:546
+msgid "_Help"
+msgstr "Помо_щь"
+
+#: interface.c:826
+msgid "_Ignore files beginning with '.'"
+msgstr "_Игнорировать файлы с '.' в начале"
+
+#: interface.c:515
+msgid "_Import Regular Expression..."
+msgstr "_Импортировать регулярное выражение"
+
+#: interface.c:3563
+msgid "_Interval :"
+msgstr "_промежуток :"
+
+#: interface.c:400
+msgid "_Location"
+msgstr "_Размещение"
+
+#: interface.c:415
+msgid "_Modified"
+msgstr "_Дата модификации"
+
+#: interface.c:270
+msgid "_New Instance"
+msgstr "_Копия"
+
+#: interface.c:426
+msgid "_Search"
+msgstr "_Поиск"
+
+#: interface.c:3568
+msgid "_Since :"
+msgstr "_от"
+
+#: interface.c:405
+msgid "_Size"
+msgstr "Р_азмер"
+
+#: interface.c:560
+msgid "_Support"
+msgstr "Поддер_жка"
+
+#: interface.c:3547
+msgid "_Today"
+msgstr "_сегодня"
+
+#: interface.c:410
+msgid "_Type"
+msgstr "_Тип"
+
+#: interface.c:3558
+msgid "_Until :"
+msgstr "_до :"
+
+#: interface.c:553
+msgid "_User Guide"
+msgstr "_Руководство пользователя"
+
+#: interface.c:355
+msgid "_View"
+msgstr "_Просмотреть"
+
+#: savestate.c:1986
+msgid "case sensitive; "
+msgstr "регистрозависимый; "
+
+#: savestate.c:1995
+#, c-format
+msgid "display %d extra lines around match; "
+msgstr "показывать %d лишних строк вокруг соответвия; "
+
+#: savestate.c:1992
+msgid "display 1 extra line around match; "
+msgstr "показывать 1 лишнюю строку вокруг соответвия; "
+
+#: callbacks.c:382
+msgid "http://searchmonkey.embeddediq.com/index.php/contribute"
+msgstr "http://searchmonkey.embeddediq.com/index.php/contribute"
+
+#: callbacks.c:390
+msgid "http://searchmonkey.embeddediq.com/index.php/support"
+msgstr "http://searchmonkey.embeddediq.com/index.php/support"
+
+#: callbacks.c:1181
+msgid "http://searchmonkey.embeddediq.com/index.php/support/index"
+msgstr "http://searchmonkey.embeddediq.com/index.php/support/index"
+
+#: callbacks.c:730
+msgid ""
+"http://searchmonkey.sourceforge.net/index.php/Regular_expression_builder"
+msgstr ""
+"http://searchmonkey.sourceforge.net/index.php/Regular_expression_builder"
+
+#: callbacks.c:437
+msgid "http://sourceforge.net/forum/?group_id=175143"
+msgstr "http://sourceforge.net/forum/?group_id=175143"
+
+#: callbacks.c:1131
+msgid ""
+"https://sourceforge.net/projects/searchmonkey/files/gSearchmonkey%20GTK"
+"%20%28Gnome%29/0.8.2%20%5Bstable%5D/"
+msgstr ""
+"https://sourceforge.net/projects/searchmonkey/files/gSearchmonkey%20GTK"
+"%20%28Gnome%29/0.8.2%20%5Bstable%5D/"
+
+#: savestate.c:2014
+msgid "none"
+msgstr "ничего"
+
+#: savestate.c:2008
+#, c-format
+msgid "only showing first %d content matches; "
+msgstr "показывать только первые %d соответвий"
+
+#: savestate.c:2005
+msgid "only showing first content match; "
+msgstr "показывать только первое соответвие; "
+
+#: savestate.c:1999
+msgid "only showing line numbers; "
+msgstr "показывать только номера строк; "
+
+#: interface.c:1886
+msgid "sample"
+msgstr "пример"
+
+#: interface.c:243
+msgid "searchmonkey"
+msgstr "searchmonkey"
+
+#: interface.c:2073 interface.c:2122 interface.c:2217
+msgid "that occurs"
+msgstr "и встречается"
+
+#~ msgid " and before "
+#~ msgstr "до"
+
+#~ msgid " and before  "
+#~ msgstr "до"
+
+#~ msgid "After"
+#~ msgstr "После:"
+
+#~ msgid "After "
+#~ msgstr "После:"
+
+#~ msgid "Any date"
+#~ msgstr "все даты"
+
+#~ msgid "Before "
+#~ msgstr "До:"
+
+#~ msgid "Since "
+#~ msgstr "от"
+
+#~ msgid "Today"
+#~ msgstr "сегодня"
+
+#~ msgid "searchmonkey %s"
+#~ msgstr "searchmonkey %s"
+
+#~ msgid "About searchmonkey"
+#~ msgstr "О searchmonkey"
+
+#~ msgid ""
+#~ "Adam Cottrell (en_GB)\n"
+#~ "Luc Amimer (fr)"
+#~ msgstr "Stefan Zerkalica (ru_RU) completed by Luc Amimer"
+
+#~ msgid "Add search criteria from a text file. Similar to the grep -f flag."
+#~ msgstr ""
+#~ "Добавить условие поиска из текстового файла. Аналогично grep -f флагу."
+
+#~ msgid "Basic"
+#~ msgstr "Базовые"
+
+#~ msgid "Create a CSV file containing a list of results."
+#~ msgstr "Создать CSV файл, содержащий список результатов."
+
+#~ msgid "Credits"
+#~ msgstr "Благодарности"
+
+#~ msgid "Enable contents search to find files with matching content too."
+#~ msgstr ""
+#~ "Включить поиск по содержимому для нахождения файлов с соответствующими "
+#~ "данными."
+
+#~ msgid "Expert Mode"
+#~ msgstr "Режим эксперта"
+
+#~ msgid "Export Expression..."
+#~ msgstr "Экспортировать выражение...."
+
+#~ msgid "Files:"
+#~ msgstr "Файлы:"
+
+#~ msgid "Import Expression..."
+#~ msgstr "Импортировать выражение..."
+
+#~ msgid "New Instance"
+#~ msgstr "Копия"
+
+#~ msgid "Open a new search window."
+#~ msgstr "Открыть новое окно поиска"
+
+#~ msgid "Open calendar dialog to choose modified date."
+#~ msgstr "Открыть даилог календаря для выбора даты."
+
+#~ msgid "Opens a dialog to find a look in directory."
+#~ msgstr "Открывает диалог для указания каталога поиска"
+
+#~ msgid "Print results direct to the configured printer."
+#~ msgstr "Печатать результаты на настроенный принтер."
+
+#~ msgid ""
+#~ "Project Manager:\n"
+#~ "Adam Cottrell <cottrela@users.sf.net>\n"
+#~ "\n"
+#~ "Programming:\n"
+#~ "  Adam Cottrell <cottrela@users.sf.net>\n"
+#~ "  Salil Joshi <HellFeuer@users.sf.net>\n"
+#~ "  Yousef AlHashemi\n"
+#~ "  Luc Amimer <amiluc_bis@yahoo.fr>\n"
+#~ "Artwork:\n"
+#~ "  Peter Cruickshank\n"
+#~ "  Luc Amimer <amiluc_bis@yahoo.fr>\n"
+#~ msgstr ""
+#~ "Менеджер проекта:\n"
+#~ "Adam Cottrell <cottrela@users.sf.net>\n"
+#~ "\n"
+#~ "Программирование:\n"
+#~ "  Adam Cottrell <cottrela@users.sf.net>\n"
+#~ "  Salil Joshi <HellFeuer@users.sf.net>\n"
+#~ "  Yousef AlHashemi\n"
+#~ "  Luc Amimer <amiluc_bis@yahoo.fr>\n"
+#~ "\n"
+#~ "Дизайн:\n"
+#~ "  Peter Cruickshank\n"
+#~ "  Luc Amimer <amiluc_bis@yahoo.fr>\n"
+
+#~ msgid "Save Results..."
+#~ msgstr "Сохранить"
+
+#~ msgid "Search criteria"
+#~ msgstr "Условия поиска"
+
+#~ msgid "Show _Toolbar"
+#~ msgstr "Показать _Панель"
+
+#~ msgid "Size :"
+#~ msgstr "Размер :"
+
+#~ msgid "Switch search from basic to advanced mode."
+#~ msgstr "Переключить поиск с базового на расширенный режим"
+
+#~ msgid ""
+#~ "Use this option to restrict your search results to files that were last "
+#~ "modified after the provided time."
+#~ msgstr ""
+#~ "Используйте эту настройку для ограничения поисковых результатов файлами, "
+#~ "с датой изменения после указанной даты."
+
+#~ msgid ""
+#~ "Use this option to restrict your search results to files that were last "
+#~ "modified before the provided time."
+#~ msgstr ""
+#~ "Используйте эту настройку для ограничения поисковых результатов файлами, "
+#~ "с датой изменения до указанной даты."
+
+#~ msgid "Write some or all of the search criteria to disk."
+#~ msgstr "Записать некоторые из поисковых условий на диск."
+
+#~ msgid "Written by"
+#~ msgstr "Написано "
+
+#~ msgid "_Containing:"
+#~ msgstr "_Содержащие:"
+
+#~ msgid "searchmonkey Credits"
+#~ msgstr "Благодарности searchmonkey"
+
+#~ msgid "%d %b %Y"
+#~ msgstr "%b %d %Y"
+
+#~ msgid "Expression Builder..."
+#~ msgstr "Создатель выражений..."
+
+#~ msgid "Ready"
+#~ msgstr "Готов"
+
+#~ msgid "Error! LessThan file size must be positive value"
+#~ msgstr "Ошибка! Значение поля 'Меньше чем' должно быть положительным"
+
+#~ msgid "Error! MoreThan file size must be positive value"
+#~ msgstr "Ошибка! Значение поля 'Больше чем' должно быть положительным"
+
+#~ msgid "-new-tab %f"
+#~ msgstr "-new-tab %f"
+
+#~ msgid "<b>Select which data to delete:</b>"
+#~ msgstr "<b>Укажите данные для удаления:</b>"
+
+#~ msgid "System Calls"
+#~ msgstr "Системные вызовы"
+
+#~ msgid "http://%s.sf.net/index.php?title=V%s_Release_Notes"
+#~ msgstr "http://%s.sf.net/index.php?title=V%s_Release_Notes"
+
+#~ msgid "http://sf.net/forum/?group_id=175143"
+#~ msgstr "http://sf.net/forum/?group_id=175143"
+
+#~ msgid "Size (kB):"
+#~ msgstr "Казмер (кБ):"
+
+#~ msgid "http://sourceforge.net/support/getsupport.php?group_id=175143"
+#~ msgstr "http://sourceforge.net/support/getsupport.php?group_id=175143"
+
+#~ msgid "%s\n"
+#~ msgstr "%s\n"
+
+#~ msgid "Text ends:"
+#~ msgstr "Текст оканчивается:"
+
+#~ msgid "Select Folder..."
+#~ msgstr "Выбрать папку"
